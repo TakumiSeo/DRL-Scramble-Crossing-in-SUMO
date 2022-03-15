@@ -1,5 +1,5 @@
 # Scramble Crossing in SUMO 
-## (SUMO環境での深層強化学習での信号の最適化_簡易ver_)
+## SUMO環境での深層強化学習での信号の最適化_簡易ver_
 This repository is showing the method to optimise Traffic Signal Control in X Crosswalk with Deep Reinforcement Learning. 
 
 Installation instructions
@@ -54,10 +54,10 @@ To run main file you can simply run
 
 After traning this model, you can see the output result in models. like below:
 <p align="center">
-  <img src="./img/ddqn_reward.png" alt="Size Limit CLI" width="738">
+  <img src="./img/reward.png" alt="Size Limit CLI" width="738">
 </p>
 <p align="center">
-  <img src="./img/ddqn_queue.png" alt="Size Limit CLI" width="738">
+  <img src="./img/queue.png" alt="Size Limit CLI" width="738">
 </p>
 
 Thank you.
