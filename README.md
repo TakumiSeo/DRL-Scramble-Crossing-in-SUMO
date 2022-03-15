@@ -57,6 +57,7 @@ After traning this model, you can see the output result in models. like below:
 <p align="center">
   <img src="./img/reward.png" alt="Size Limit CLI" width="738">
 </p>
+
 ### Queue length
 <p align="center">
   <img src="./img/queue.png" alt="Size Limit CLI" width="738">
