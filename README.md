@@ -1,4 +1,5 @@
-# Scramble Crossing in SUMO (SUMO環境での深層強化学習での信号の最適化_簡易ver_)
+# Scramble Crossing in SUMO 
+## (SUMO環境での深層強化学習での信号の最適化_簡易ver_)
 This repository is showing the method to optimise Traffic Signal Control in X Crosswalk with Deep Reinforcement Learning. 
 
 Installation instructions
@@ -41,8 +42,12 @@ The method I use to optimise the TSC is straightforwardlly Double Deep Q-Network
 <p align="center">
   <img src="./img/ddqn.png" alt="Size Limit CLI" width="738">
 </p>
-(details: <https://arxiv.org/pdf/1509.06461.pdf>)
+(details: <https://arxiv.org/pdf/1509.06461.pdf>)<br>
 
+The diagram of the amount of pedestrian on this intersection is
+<p align="center">
+  <img src="./img/diagram.png" alt="Size Limit CLI" width="738">
+</p>
 To run main file you can simply run
 
     python main.py
