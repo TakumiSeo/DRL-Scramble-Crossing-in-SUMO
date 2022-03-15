@@ -40,22 +40,24 @@ To see if what kind of intersection you will work with is
 
 The method I use to optimise the TSC is straightforwardlly Double Deep Q-Network
 <p align="center">
-  <img src="./img/ddqn.png" alt="Size Limit CLI" width="738">
+  <img src="./img/ddqn.png" alt="Size Limit CLI" width="538">
 </p>
 (details: <https://arxiv.org/pdf/1509.06461.pdf>)<br>
 
 The diagram of the amount of pedestrian on this intersection is
 <p align="center">
-  <img src="./img/diagram.png" alt="Size Limit CLI" width="738">
+  <img src="./img/x_crosswalk_percentile_diagram.png" alt="Size Limit CLI" width="538">
 </p>
 To run main file you can simply run
 
     python main.py
 
 After traning this model, you can see the output result in models. like below:
+### Reward
 <p align="center">
   <img src="./img/reward.png" alt="Size Limit CLI" width="738">
 </p>
+### Queue length
 <p align="center">
   <img src="./img/queue.png" alt="Size Limit CLI" width="738">
 </p>
